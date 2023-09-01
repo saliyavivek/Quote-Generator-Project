@@ -7,7 +7,6 @@ btn.addEventListener("click", async() => {
     console.log(quote[1]);
 
     let qt = document.querySelector("#quote");
-    // let ans = quote[0].toUpperCase();
     qt.innerHTML = '"' + quote[0] + '"';
 
     let ath = document.querySelector("#author");
