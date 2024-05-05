@@ -3,8 +3,8 @@ let btn = document.getElementById("btn");
 
 btn.addEventListener("click", async() => {
     let quote = await getQuote();
-    console.log(quote[0]);
-    console.log(quote[1]);
+    // console.log(quote[0]);
+    // console.log(quote[1]);
 
     let qt = document.querySelector("#quote");
     qt.innerHTML = '"' + quote[0] + '"';
